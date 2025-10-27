@@ -1,0 +1,61 @@
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@import url("https://fonts.google.com/specimen/Nunito");
+@import url("https://fonts.google.com/specimen/Arvo");
+
+/*two fonts: */
+/* tile, headings in serif*/
+/*sans-serif for paragraphs*/
+
+
+h1,h2{
+  line-height: 1.5em;
+  font-family: "Arvo", serif;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.5em;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.0 em;
+  text-indent: 50px;
+}
+
+
+nav ul li a:visited {
+  color: purple;
+}
+
+nav ul li a:hover{
+  color: black;
+  background: white;
+}

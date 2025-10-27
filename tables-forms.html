@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form-style.css">
     <title>Tables & Forms</title>
     <style>
 
@@ -69,11 +71,9 @@
     <!-- skip navigation -->
     <nav>
         <ul>
-            <li>
-                ::marker
-                <a href="#Specific"> Super Specific HTML </a> 
-                <span aria-hidden="”true”" class="material-icons">accessible</span>
-            </li>
+            <li><a href="#Specific"> Super Specific HTML </a></li>
+            <li><a href="#table"> Championship Table </a></li>
+            <li><a href="#form"> Newsletter Form</a></li>
         </ul>
     </nav>
 
@@ -137,7 +137,7 @@
         </section>
 
         <!--table-->
-        <section>
+        <section id="table">
             <h2>Accessible Table</h2>
             <table>
                 <caption> Championship Stats </caption>
@@ -169,7 +169,7 @@
         </section>
         
         <!--form-->
-        <section>
+        <section id="form">
             <h2>Newsletter Form</h2>
             <form id="myform" method="post">
                 <fieldset>
@@ -198,8 +198,6 @@
         </section>
     </main>
 
-    <!--google fonts-->
-    <!--google material icons-->
     <!--footer-->
     <footer>
         <p> Site By Lauren
