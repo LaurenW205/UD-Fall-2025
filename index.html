@@ -7,17 +7,20 @@
     <link rel="stylesheet" href= "css/home.css">
 </head>
 <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="container">
     <header>
         <h1>Lauren Ward - Universal Design for Digital Media</h1>
     </header>
-    <nav>
+    <nav aria-label="Course assignments">
         <ul> <!--Links-->
-            <li><a href='wikipedia.html'>Lab #2 - Coding and Posting a Web Page</a></li> <!-- # is dummy link -->
-            <li><a href='tables-forms.html'>Lab #3 - Tables, Forms, and Screen Reading</a></li>
-            <li><a href='responsive-css.html'>Lab #4 - Accessible CSS Layout</a></li>
-            <li><a href="">Final Project - Universal Design Website</a></li>
+            <li><a href='wikipedia.html' aria-describedby='assignment-1'>Lab #2 - Coding and Posting a Web Page</a>
+            <span class="placeholder" id="assignment-1" aria-hidden="true"></span></li> <!-- # is dummy link -->
+            <li><a href='tables-forms.html' aria-describedby='assignment-2'>Lab #3 - Tables, Forms, and Screen Reading</a>
+            <span class="placeholder" id="assignment-2" aria-hidden="true"></span></li>
+            <li><a href='responsive-css.html' aria-describedby='assignment-3'>Lab #4 - Accessible CSS Layout</a>
+            <span class="placeholder" id="assignment-3" aria-hidden="true"></span></li>
+            <li><a href="" aria-describedby='final-project'>Final Project - Universal Design Website</a>
+            <span class="placeholder" id="final-project" aria-hidden="true"></span></li>
         </ul>
     </nav>
     <section id="about">

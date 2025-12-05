@@ -1,8 +1,20 @@
-   
- body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   background: rgb(255, 255, 255);
-  font-family: 'Nunito', sans-serif;
-  color:bisque;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  color:rgb(14, 14, 14);
   font-weight: 300;
   font-size: 15px;
 }
@@ -10,7 +22,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'Akaya Telivigala', serif;
+  font-family: 'Lexend';
   font-weight: normal;
   padding: .2em 0;
 }
@@ -104,12 +116,12 @@ grid-template-areas:
   "footy";
 }
 
-header {grid-area: heady; background:#5B8A8A;}
+header {grid-area: heady; background:#76ACAC;}
 nav {grid-area: navvy; background:#fdfdfd;}
-#about {grid-area: about; background: #5B8A8A; max-height: 100%;}
-#aside1 {grid-area: aside1; background: #5B8A8A;}
-main {grid-area: labs; background: #5B8A8A;}
-footer {grid-area: footy; background: #5B8A8A;}
+#about {grid-area: about; background: #76ACAC; max-height: 100%;}
+#aside1 {grid-area: aside1; background: #76ACAC;}
+main {grid-area: labs; background: #76ACAC;}
+footer {grid-area: footy; background: #76ACAC;}
 
 
 nav ul {
